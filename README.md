@@ -4,6 +4,13 @@
 
 A live demo of a digital QR menu. The cafe is **fictional** and clearly labeled as a demo.
 
+
+## الرابط الحي
+
+https://abofahd6611-source.github.io/
+
+المستودع: https://github.com/abofahd6611-source/qr-menu-demo
+
 ## المحتوى
 
 - صفحة ثابتة HTML/CSS/JS (بدون باك إند)، عربية RTL مع زر تبديل للإنجليزي
