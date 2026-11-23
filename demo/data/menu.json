@@ -1,0 +1,323 @@
+{
+  "demo": true,
+  "locale_default": "ar",
+  "theme": {
+    "paper": "#f4efe6",
+    "paper_2": "#e9e1d3",
+    "foam": "#fffaf3",
+    "ink": "#1c1410",
+    "ink_2": "#5c4f44",
+    "ink_3": "#8a7c70",
+    "coffee": "#4a2c1c",
+    "coffee_deep": "#2a1b13",
+    "gold": "#c4a06a",
+    "gold_2": "#a07c45",
+    "whatsapp": "#128c7e"
+  },
+  "brand": {
+    "name_ar": "نَموذَج",
+    "name_en": "Namothaj",
+    "legal_ar": "كافيه نموذج",
+    "legal_en": "Namothaj Cafe",
+    "tagline_ar": "CAFE · DEMO",
+    "tagline_en": "CAFE · DEMO",
+    "subname": "DEMO CAFE"
+  },
+  "meta": {
+    "title_ar": "كافيه نموذج — منيو تجريبي",
+    "title_en": "Namothaj Cafe — Demo Menu",
+    "description_ar": "نموذج حي لمنيو رقمي بباركود QR — كافيه نموذج (تجريبي، ليست منشأة حقيقية).",
+    "description_en": "A live demo of a digital QR menu — Namothaj Cafe (fictional, not a real venue)."
+  },
+  "hero": {
+    "image": "images/hero.jpg",
+    "kicker_ar": "منيو رقمي بباركود QR",
+    "kicker_en": "Digital QR menu",
+    "lead_ar": "قهوة مختصة ومنيو يُفتح من الكاميرا — بدون تطبيق، وبلا اشتراك شهري إلزامي.",
+    "lead_en": "Specialty coffee and a menu that opens from your camera — no app, and no mandatory monthly fee."
+  },
+  "banner": {
+    "ar": "نموذج تجريبي — ليست منشأة حقيقية · Demo only",
+    "en": "Demo only — not a real venue · نموذج تجريبي"
+  },
+  "whatsapp": {
+    "number": "",
+    "prefill_ar": "مرحباً، أريد الطلب من منيو كافيه نموذج (نموذج تجريبي)",
+    "prefill_en": "Hello, I would like to order from the Namothaj Cafe demo menu",
+    "button_ar": "اطلب أو تواصل عبر واتساب",
+    "button_en": "Order or message on WhatsApp",
+    "demo_modal_title_ar": "نموذج تجريبي",
+    "demo_modal_title_en": "This is a demo",
+    "demo_modal_body_ar": "هذا كافيه وهمي للعرض. في المنيو الحقيقي يفتح الزر محادثة واتساب الخاصة بالمحل مباشرة، من غير أن ينزّل الزبون تطبيقًا إضافيًا.",
+    "demo_modal_body_en": "This cafe is fictional and for display only. On a real menu, this button opens the venue’s WhatsApp chat directly — no extra app to install.",
+    "demo_modal_cta_ar": "تجربة واتساب",
+    "demo_modal_cta_en": "Try WhatsApp",
+    "close_ar": "إغلاق",
+    "close_en": "Close"
+  },
+  "hours": {
+    "timezone": "Asia/Riyadh",
+    "label_ar": "أوقات العمل",
+    "label_en": "Opening hours",
+    "lines": [
+      {
+        "ar": "السبت – الخميس: 7:00 صباحًا حتى منتصف الليل",
+        "en": "Saturday–Thursday: 7:00 AM – midnight"
+      },
+      {
+        "ar": "الجمعة: 1:00 ظهرًا حتى منتصف الليل",
+        "en": "Friday: 1:00 PM – midnight"
+      }
+    ],
+    "weekly": [
+      {
+        "days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "open": "07:00",
+        "close": "24:00"
+      },
+      {
+        "days": [
+          5
+        ],
+        "open": "13:00",
+        "close": "24:00"
+      }
+    ],
+    "open_ar": "مفتوح الآن",
+    "open_en": "Open now",
+    "closed_ar": "مغلق الآن",
+    "closed_en": "Closed now"
+  },
+  "location": {
+    "label_ar": "الموقع",
+    "label_en": "Location",
+    "address_ar": "سكاكا، الجوف — عنوان وهمي للنموذج (ليست جهة حقيقية).",
+    "address_en": "Sakaka, Al-Jawf — a fictional demo location (not a real venue).",
+    "link_ar": "فتح خرائط سكاكا",
+    "link_en": "Open Sakaka on Maps",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Sakaka%2C%20Al%20Jawf%2C%20Saudi%20Arabia"
+  },
+  "footer": {
+    "line1_ar": "كافيه نموذج — Demo",
+    "line1_en": "Namothaj Cafe — Demo",
+    "line2_ar": "القيم الحرارية في هذا النموذج تقديرية للعرض فقط. في المشروع الحقيقي تكون دقة الأسعار والسعرات والحساسية مسؤولية المنشأة.",
+    "line2_en": "Calorie values in this demo are estimates for display only. In a real project, the accuracy of prices, calories, and allergens is the venue’s responsibility.",
+    "line3_ar": "صور مجانية الترخيص من Unsplash و Pexels. هذا النموذج لمعرض منتج «منيو رقمي بباركود QR».",
+    "line3_en": "Photos are free-licensed from Unsplash and Pexels. This page is a product demo for a digital QR menu."
+  },
+  "ui": {
+    "visit_ar": "زورونا",
+    "visit_en": "Visit us",
+    "lang_to_en": "English",
+    "lang_to_ar": "العربية",
+    "currency_ar": "ر.س",
+    "currency_en": "SAR",
+    "cats_aria_ar": "أقسام المنيو",
+    "cats_aria_en": "Menu sections"
+  },
+  "categories": [
+    {
+      "id": "coffee",
+      "name_ar": "قهوة مختصة",
+      "name_en": "Specialty coffee",
+      "items": [
+        {
+          "image": "images/v60.jpg",
+          "name_ar": "V60 قهوة مختصة",
+          "name_en": "V60 pour-over",
+          "desc_ar": "تحضير يدوي بكأس V60، نكهة زهرية وحلاوة خفيفة.",
+          "desc_en": "Hand-brewed in a V60, floral with a gentle sweetness.",
+          "kcal_ar": "٥ سعرات",
+          "kcal_en": "5 kcal",
+          "tag_ar": "بدون حليب",
+          "tag_en": "Dairy-free",
+          "price": 18
+        },
+        {
+          "image": "images/espresso.jpg",
+          "name_ar": "إسبريسو",
+          "name_en": "Espresso",
+          "desc_ar": "شوت مكثف بتحميص متوسط، مناسب لبداية اليوم.",
+          "desc_en": "A concentrated shot with a medium roast, made for the start of the day.",
+          "kcal_ar": "٥ سعرات",
+          "kcal_en": "5 kcal",
+          "tag_ar": "بدون حليب",
+          "tag_en": "Dairy-free",
+          "price": 12
+        },
+        {
+          "image": "images/cappuccino.jpg",
+          "name_ar": "كابتشينو",
+          "name_en": "Cappuccino",
+          "desc_ar": "إسبريسو وحليب مبخّر ورغوة ناعمة بتوازن كلاسيكي.",
+          "desc_en": "Espresso, steamed milk, and soft foam in a classic balance.",
+          "kcal_ar": "٩٠ سعرة",
+          "kcal_en": "90 kcal",
+          "tag_ar": "يحتوي حليب",
+          "tag_en": "Contains milk",
+          "price": 16
+        },
+        {
+          "image": "images/spanish-latte.jpg",
+          "name_ar": "لاتيه إسباني",
+          "name_en": "Spanish latte",
+          "desc_ar": "إسبريسو مع حليب مكثف محلى، كريمي وحلو باعتدال.",
+          "desc_en": "Espresso with sweetened condensed milk — creamy and gently sweet.",
+          "kcal_ar": "١٨٠ سعرة",
+          "kcal_en": "180 kcal",
+          "tag_ar": "يحتوي حليب",
+          "tag_en": "Contains milk",
+          "price": 19
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "name_ar": "مشروبات باردة",
+      "name_en": "Cold drinks",
+      "items": [
+        {
+          "image": "images/iced-latte.jpg",
+          "name_ar": "آيس لاتيه",
+          "name_en": "Iced latte",
+          "desc_ar": "إسبريسو على حليب بارد وثلج، منعش طوال اليوم.",
+          "desc_en": "Espresso over cold milk and ice — refreshing all day.",
+          "kcal_ar": "١٤٠ سعرة",
+          "kcal_en": "140 kcal",
+          "tag_ar": "يحتوي حليب",
+          "tag_en": "Contains milk",
+          "price": 18
+        },
+        {
+          "image": "images/berry.jpg",
+          "name_ar": "موهيتو ليمون",
+          "name_en": "Lemon mint cooler",
+          "desc_ar": "ليمون ونعناع وصودا، مشروب منعش بدون كحول.",
+          "desc_en": "Lemon, mint, and soda — a refreshing non-alcoholic cooler.",
+          "kcal_ar": "٩٠ سعرة",
+          "kcal_en": "90 kcal",
+          "tag_ar": "بدون حليب",
+          "tag_en": "Dairy-free",
+          "price": 16
+        },
+        {
+          "image": "images/matcha.jpg",
+          "name_ar": "ماتشا مثلج",
+          "name_en": "Iced matcha",
+          "desc_ar": "شاي ماتشا مخفوق مع حليب بارد وثلج.",
+          "desc_en": "Whisked matcha with cold milk and ice.",
+          "kcal_ar": "١٥٠ سعرة",
+          "kcal_en": "150 kcal",
+          "tag_ar": "يحتوي حليب",
+          "tag_en": "Contains milk",
+          "price": 20
+        },
+        {
+          "image": "images/karak.jpg",
+          "name_ar": "كرك بالحليب",
+          "name_en": "Karak chai",
+          "desc_ar": "شاي كرك بالهيل والحليب، بطابع خليجي مألوف.",
+          "desc_en": "Karak tea with cardamom and milk, in a familiar Gulf style.",
+          "kcal_ar": "٨٠ سعرة",
+          "kcal_en": "80 kcal",
+          "tag_ar": "يحتوي حليب",
+          "tag_en": "Contains milk",
+          "price": 14
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name_ar": "حلا",
+      "name_en": "Desserts",
+      "items": [
+        {
+          "image": "images/donuts.jpg",
+          "name_ar": "دونات شوكولاتة",
+          "name_en": "Chocolate donut",
+          "desc_ar": "دونات مغطاة بشوكولاتة داكنة ورشة توت مجفف.",
+          "desc_en": "A donut coated in dark chocolate with a sprinkle of dried berry.",
+          "kcal_ar": "٣٢٠ سعرة",
+          "kcal_en": "320 kcal",
+          "tag_ar": "يحتوي غلوتين",
+          "tag_en": "Contains gluten",
+          "price": 16
+        },
+        {
+          "image": "images/cheesecake.jpg",
+          "name_ar": "تشيز كيك التوت",
+          "name_en": "Berry cheesecake",
+          "desc_ar": "شريحة تشيز كيك كريمية بطبقة توت وقاعدة بسكويت.",
+          "desc_en": "A creamy cheesecake slice with a berry topping and biscuit base.",
+          "kcal_ar": "٣٥٠ سعرة",
+          "kcal_en": "350 kcal",
+          "tag_ar": "يحتوي حليب",
+          "tag_en": "Contains milk",
+          "price": 24
+        },
+        {
+          "image": "images/brownie.jpg",
+          "name_ar": "براوني",
+          "name_en": "Brownie",
+          "desc_ar": "براوني شوكولاتة داكنة بقوام فادج ورشة ملح خفيفة.",
+          "desc_en": "A dark chocolate fudge brownie with a light pinch of salt.",
+          "kcal_ar": "٣٨٠ سعرة",
+          "kcal_en": "380 kcal",
+          "tag_ar": "يحتوي غلوتين",
+          "tag_en": "Contains gluten",
+          "price": 18
+        }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "name_ar": "فطور",
+      "name_en": "Breakfast",
+      "items": [
+        {
+          "image": "images/breakfast.jpg",
+          "name_ar": "فطور الصباح",
+          "name_en": "Morning breakfast",
+          "desc_ar": "صحن متنوع من البيض، الخبز، والفواكه — مناسب للمشاركة أو لبداية هادئة.",
+          "desc_en": "A mixed plate of eggs, bread, and fruit — good to share or to start slowly.",
+          "kcal_ar": "٥٢٠ سعرة",
+          "kcal_en": "520 kcal",
+          "tag_ar": "يحتوي بيض",
+          "tag_en": "Contains egg",
+          "price": 32
+        },
+        {
+          "image": "images/avocado.jpg",
+          "name_ar": "توست أفوكادو",
+          "name_en": "Avocado toast",
+          "desc_ar": "خبز محمص مع أفوكادو وبيض مسلوق ورشة سمسم.",
+          "desc_en": "Toasted bread with avocado, boiled egg, and a sprinkle of sesame.",
+          "kcal_ar": "٤١٠ سعرة",
+          "kcal_en": "410 kcal",
+          "tag_ar": "يحتوي بيض",
+          "tag_en": "Contains egg",
+          "price": 28
+        },
+        {
+          "image": "images/shakshuka.jpg",
+          "name_ar": "شاكشوكة",
+          "name_en": "Shakshuka",
+          "desc_ar": "بيض مطبوخ على صلصة طماطم وبهارات، يُقدَّم مع خبز.",
+          "desc_en": "Eggs simmered in a spiced tomato sauce, served with bread.",
+          "kcal_ar": "٣٩٠ سعرة",
+          "kcal_en": "390 kcal",
+          "tag_ar": "يحتوي بيض",
+          "tag_en": "Contains egg",
+          "price": 26
+        }
+      ]
+    }
+  ]
+}

@@ -4,12 +4,22 @@
 
 A live demo of a digital QR menu. The cafe is **fictional** and clearly labeled as a demo.
 
+## الروابط الحية
 
-## الرابط الحي
-
-https://abofahd6611-source.github.io/
+- المسار الجديد (الأساسي بعد إعادة الهيكلة): https://abofahd6611-source.github.io/demo/
+- المسار القديم (يُبقي الـQR المطبوع يعمل، ويرجع HTTP 200 ثم يحوّل إلى `/demo/`): https://abofahd6611-source.github.io/
 
 المستودع: https://github.com/abofahd6611-source/qr-menu-demo
+
+## هيكل النسخ السريع
+
+بيانات المنشأة والقائمة كلها في ملف واحد:
+
+`demo/data/menu.json`
+
+الصفحة `demo/index.html` هيكل فارغ، و`demo/js/app.js` يرسم المنيو من هذا الملف: الاسم، الألوان، الأقسام، الأصناف، الأسعار، السعرات، واتساب، أوقات العمل، والموقع.
+
+لنسخ النموذج لعميل جديد خلال ساعات راجع [PUBLISHING.md](PUBLISHING.md).
 
 ## المحتوى
 
@@ -22,14 +32,16 @@ https://abofahd6611-source.github.io/
 
 ## التشغيل المحلي
 
-افتح `index.html` في المتصفح، أو من مجلد المشروع:
+من مجلد المشروع:
 
 ```bash
 python3 -m http.server 8765
 ```
 
-ثم زر http://127.0.0.1:8765/
+ثم زر http://127.0.0.1:8765/demo/
+
+فتح `index.html` كملف مباشر (`file://`) لن يحمّل `menu.json` بسبب قيود المتصفح؛ استخدم الخادم المحلي.
 
 ## الرخصة والصور
 
-كود النموذج يمكن إعادة استخدامه لهذا المعرض. الصور من Unsplash وPexels وفق رخصهما المجانية، مع ذكر المصادر في `images/ATTRIBUTION.txt`. لا تستخدم اسم «كافيه نموذج» أو بياناته كمنشأة حقيقية.
+كود النموذج يمكن إعادة استخدامه لهذا المعرض. الصور من Unsplash وPexels وفق رخصهما المجانية، مع ذكر المصادر في `demo/images/ATTRIBUTION.txt`. لا تستخدم اسم «كافيه نموذج» أو بياناته كمنشأة حقيقية.
