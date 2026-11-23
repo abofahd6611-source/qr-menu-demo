@@ -1,0 +1,20 @@
+Free-licensed photos used in this fictional demo menu.
+
+Unsplash License (https://unsplash.com/license):
+- images/hero.jpg — https://unsplash.com/photos/1498804103079-a6351b050096
+- images/v60.jpg — https://unsplash.com/photos/1495474472287-4d71bcdd2085
+- images/espresso.jpg — https://unsplash.com/photos/1510591509098-f4fdc6d0ff04
+- images/cappuccino.jpg — https://unsplash.com/photos/1572442388796-11668a67e53d
+- images/spanish-latte.jpg — https://unsplash.com/photos/1511920170033-f8396924c348
+- images/iced-latte.jpg — https://unsplash.com/photos/1461023058943-07fcbe16d735
+- images/berry.jpg — https://unsplash.com/photos/1546171753-97d7676e4602
+- images/karak.jpg — https://unsplash.com/photos/1571934811356-5cc061b6821f
+- images/brownie.jpg — https://unsplash.com/photos/1606313564200-e75d5e30476c
+- images/avocado.jpg — https://unsplash.com/photos/1541519227354-08fa5d50c44d
+- images/shakshuka.jpg — https://unsplash.com/photos/1590412200988-a436970781fa
+- images/breakfast.jpg — https://unsplash.com/photos/1504754524776-8f4f37790ca0
+
+Pexels License (https://www.pexels.com/license/):
+- images/cheesecake.jpg — https://www.pexels.com/photo/1126359/
+- images/matcha.jpg — https://www.pexels.com/photo/5946972/
+- images/donuts.jpg — https://www.pexels.com/photo/7474254/
