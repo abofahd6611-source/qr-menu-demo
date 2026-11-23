@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2a1b13">
+  <meta name="description" content="نموذج حي لمنيو رقمي بباركود QR — كافيه نموذج (تجريبي، ليست منشأة حقيقية).">
+  <title data-ar="كافيه نموذج — منيو تجريبي" data-en="Namothaj Cafe — Demo Menu">كافيه نموذج — منيو تجريبي</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Reem+Kufi:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <div class="demo-banner" data-ar="نموذج تجريبي — ليست منشأة حقيقية · Demo only" data-en="Demo only — not a real venue · نموذج تجريبي">نموذج تجريبي — ليست منشأة حقيقية · Demo only</div>
+
+    <header class="topbar">
+      <a class="brand" href="#top" id="top">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#4A2C1C"/>
+          <path fill="#C4A06A" d="M18 28h22c0 8-5 16-11 16s-11-8-11-16zm22 2h3.5c3 0 5 2.2 5 5s-2 5-5 5H40"/>
+          <rect x="22" y="48" width="16" height="3" rx="1.5" fill="#E8E0D2"/>
+        </svg>
+        <span class="brand-name">
+          <span data-ar="نَموذَج" data-en="Namothaj">نَموذَج</span>
+          <small>CAFE · DEMO</small>
+        </span>
+      </a>
+      <button type="button" class="lang-toggle" id="lang-toggle" aria-pressed="false" data-ar="English" data-en="العربية" data-ar-aria="Switch to English" data-en-aria="التبديل إلى العربية">English</button>
+    </header>
+
+    <section class="hero">
+      <img class="hero-bg" src="images/hero.jpg" alt="" width="1200" height="1500">
+      <div>
+        <span class="hero-kicker" data-ar="منيو رقمي بباركود QR" data-en="Digital QR menu">منيو رقمي بباركود QR</span>
+        <h1 data-ar="كافيه نموذج" data-en="Namothaj Cafe">كافيه نموذج</h1>
+        <p class="subname">DEMO CAFE</p>
+        <p class="lead" data-ar="قهوة مختصة ومنيو يُفتح من الكاميرا — بدون تطبيق، وبلا اشتراك شهري إلزامي." data-en="Specialty coffee and a menu that opens from your camera — no app, and no mandatory monthly fee.">قهوة مختصة ومنيو يُفتح من الكاميرا — بدون تطبيق، وبلا اشتراك شهري إلزامي.</p>
+      </div>
+    </section>
+
+    <nav class="cats" aria-label="أقسام المنيو">
+      <div class="cats-row">
+        <a href="#coffee" class="is-active" data-ar="قهوة مختصة" data-en="Specialty coffee">قهوة مختصة</a>
+        <a href="#cold" data-ar="مشروبات باردة" data-en="Cold drinks">مشروبات باردة</a>
+        <a href="#dessert" data-ar="حلا" data-en="Desserts">حلا</a>
+        <a href="#breakfast" data-ar="فطور" data-en="Breakfast">فطور</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="section" id="coffee">
+        <h2 data-ar="قهوة مختصة" data-en="Specialty coffee">قهوة مختصة</h2>
+
+        <article class="item">
+          <img src="images/v60.jpg" alt="" width="720" height="720" loading="eager">
+          <div class="item-body">
+            <h3 data-ar="V60 قهوة مختصة" data-en="V60 pour-over">V60 قهوة مختصة</h3>
+            <p data-ar="تحضير يدوي بكأس V60، نكهة زهرية وحلاوة خفيفة." data-en="Hand-brewed in a V60, floral with a gentle sweetness.">تحضير يدوي بكأس V60، نكهة زهرية وحلاوة خفيفة.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٥ سعرات" data-en="5 kcal">٥ سعرات</span></span>
+              <span class="tag" data-ar="بدون حليب" data-en="Dairy-free">بدون حليب</span>
+            </div>
+          </div>
+          <div class="price">18<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/espresso.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="إسبريسو" data-en="Espresso">إسبريسو</h3>
+            <p data-ar="شوت مكثف بتحميص متوسط، مناسب لبداية اليوم." data-en="A concentrated shot with a medium roast, made for the start of the day.">شوت مكثف بتحميص متوسط، مناسب لبداية اليوم.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٥ سعرات" data-en="5 kcal">٥ سعرات</span></span>
+              <span class="tag" data-ar="بدون حليب" data-en="Dairy-free">بدون حليب</span>
+            </div>
+          </div>
+          <div class="price">12<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/cappuccino.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="كابتشينو" data-en="Cappuccino">كابتشينو</h3>
+            <p data-ar="إسبريسو وحليب مبخّر ورغوة ناعمة بتوازن كلاسيكي." data-en="Espresso, steamed milk, and soft foam in a classic balance.">إسبريسو وحليب مبخّر ورغوة ناعمة بتوازن كلاسيكي.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٩٠ سعرة" data-en="90 kcal">٩٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي حليب" data-en="Contains milk">يحتوي حليب</span>
+            </div>
+          </div>
+          <div class="price">16<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/spanish-latte.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="لاتيه إسباني" data-en="Spanish latte">لاتيه إسباني</h3>
+            <p data-ar="إسبريسو مع حليب مكثف محلى، كريمي وحلو باعتدال." data-en="Espresso with sweetened condensed milk — creamy and gently sweet.">إسبريسو مع حليب مكثف محلى، كريمي وحلو باعتدال.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="١٨٠ سعرة" data-en="180 kcal">١٨٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي حليب" data-en="Contains milk">يحتوي حليب</span>
+            </div>
+          </div>
+          <div class="price">19<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+      </section>
+
+      <section class="section" id="cold">
+        <h2 data-ar="مشروبات باردة" data-en="Cold drinks">مشروبات باردة</h2>
+
+        <article class="item">
+          <img src="images/iced-latte.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="آيس لاتيه" data-en="Iced latte">آيس لاتيه</h3>
+            <p data-ar="إسبريسو على حليب بارد وثلج، منعش طوال اليوم." data-en="Espresso over cold milk and ice — refreshing all day.">إسبريسو على حليب بارد وثلج، منعش طوال اليوم.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="١٤٠ سعرة" data-en="140 kcal">١٤٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي حليب" data-en="Contains milk">يحتوي حليب</span>
+            </div>
+          </div>
+          <div class="price">18<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/berry.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="موهيتو ليمون" data-en="Lemon mint cooler">موهيتو ليمون</h3>
+            <p data-ar="ليمون ونعناع وصودا، مشروب منعش بدون كحول." data-en="Lemon, mint, and soda — a refreshing non-alcoholic cooler.">ليمون ونعناع وصودا، مشروب منعش بدون كحول.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٩٠ سعرة" data-en="90 kcal">٩٠ سعرة</span></span>
+              <span class="tag" data-ar="بدون حليب" data-en="Dairy-free">بدون حليب</span>
+            </div>
+          </div>
+          <div class="price">16<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/matcha.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="ماتشا مثلج" data-en="Iced matcha">ماتشا مثلج</h3>
+            <p data-ar="شاي ماتشا مخفوق مع حليب بارد وثلج." data-en="Whisked matcha with cold milk and ice.">شاي ماتشا مخفوق مع حليب بارد وثلج.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="١٥٠ سعرة" data-en="150 kcal">١٥٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي حليب" data-en="Contains milk">يحتوي حليب</span>
+            </div>
+          </div>
+          <div class="price">20<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/karak.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="كرك بالحليب" data-en="Karak chai">كرك بالحليب</h3>
+            <p data-ar="شاي كرك بالهيل والحليب، بطابع خليجي مألوف." data-en="Karak tea with cardamom and milk, in a familiar Gulf style.">شاي كرك بالهيل والحليب، بطابع خليجي مألوف.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٨٠ سعرة" data-en="80 kcal">٨٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي حليب" data-en="Contains milk">يحتوي حليب</span>
+            </div>
+          </div>
+          <div class="price">14<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+      </section>
+
+      <section class="section" id="dessert">
+        <h2 data-ar="حلا" data-en="Desserts">حلا</h2>
+
+        <article class="item">
+          <img src="images/donuts.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="دونات شوكولاتة" data-en="Chocolate donut">دونات شوكولاتة</h3>
+            <p data-ar="دونات مغطاة بشوكولاتة داكنة ورشة توت مجفف." data-en="A donut coated in dark chocolate with a sprinkle of dried berry.">دونات مغطاة بشوكولاتة داكنة ورشة توت مجفف.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٣٢٠ سعرة" data-en="320 kcal">٣٢٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي غلوتين" data-en="Contains gluten">يحتوي غلوتين</span>
+            </div>
+          </div>
+          <div class="price">16<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/cheesecake.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="تشيز كيك التوت" data-en="Berry cheesecake">تشيز كيك التوت</h3>
+            <p data-ar="شريحة تشيز كيك كريمية بطبقة توت وقاعدة بسكويت." data-en="A creamy cheesecake slice with a berry topping and biscuit base.">شريحة تشيز كيك كريمية بطبقة توت وقاعدة بسكويت.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٣٥٠ سعرة" data-en="350 kcal">٣٥٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي حليب" data-en="Contains milk">يحتوي حليب</span>
+            </div>
+          </div>
+          <div class="price">24<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/brownie.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="براوني" data-en="Brownie">براوني</h3>
+            <p data-ar="براوني شوكولاتة داكنة بقوام فادج ورشة ملح خفيفة." data-en="A dark chocolate fudge brownie with a light pinch of salt.">براوني شوكولاتة داكنة بقوام فادج ورشة ملح خفيفة.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٣٨٠ سعرة" data-en="380 kcal">٣٨٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي غلوتين" data-en="Contains gluten">يحتوي غلوتين</span>
+            </div>
+          </div>
+          <div class="price">18<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+      </section>
+
+      <section class="section" id="breakfast">
+        <h2 data-ar="فطور" data-en="Breakfast">فطور</h2>
+
+        <article class="item">
+          <img src="images/breakfast.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="فطور الصباح" data-en="Morning breakfast">فطور الصباح</h3>
+            <p data-ar="صحن متنوع من البيض، الخبز، والفواكه — مناسب للمشاركة أو لبداية هادئة." data-en="A mixed plate of eggs, bread, and fruit — good to share or to start slowly.">صحن متنوع من البيض، الخبز، والفواكه — مناسب للمشاركة أو لبداية هادئة.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٥٢٠ سعرة" data-en="520 kcal">٥٢٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي بيض" data-en="Contains egg">يحتوي بيض</span>
+            </div>
+          </div>
+          <div class="price">32<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/avocado.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="توست أفوكادو" data-en="Avocado toast">توست أفوكادو</h3>
+            <p data-ar="خبز محمص مع أفوكادو وبيض مسلوق ورشة سمسم." data-en="Toasted bread with avocado, boiled egg, and a sprinkle of sesame.">خبز محمص مع أفوكادو وبيض مسلوق ورشة سمسم.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٤١٠ سعرة" data-en="410 kcal">٤١٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي بيض" data-en="Contains egg">يحتوي بيض</span>
+            </div>
+          </div>
+          <div class="price">28<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+
+        <article class="item">
+          <img src="images/shakshuka.jpg" alt="" width="720" height="720" loading="lazy">
+          <div class="item-body">
+            <h3 data-ar="شاكشوكة" data-en="Shakshuka">شاكشوكة</h3>
+            <p data-ar="بيض مطبوخ على صلصة طماطم وبهارات، يُقدَّم مع خبز." data-en="Eggs simmered in a spiced tomato sauce, served with bread.">بيض مطبوخ على صلصة طماطم وبهارات، يُقدَّم مع خبز.</p>
+            <div class="meta">
+              <span class="kcal"><span data-ar="٣٩٠ سعرة" data-en="390 kcal">٣٩٠ سعرة</span></span>
+              <span class="tag" data-ar="يحتوي بيض" data-en="Contains egg">يحتوي بيض</span>
+            </div>
+          </div>
+          <div class="price">26<span class="unit" data-ar="ر.س" data-en="SAR">ر.س</span></div>
+        </article>
+      </section>
+    </main>
+
+    <section class="info" id="visit" aria-labelledby="visit-title">
+      <h2 id="visit-title" data-ar="زورونا" data-en="Visit us">زورونا</h2>
+      <div class="info-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <div>
+          <div>
+            <strong data-ar="أوقات العمل" data-en="Opening hours">أوقات العمل</strong>
+            <span class="status" id="open-status"><span class="dot"></span><span class="label">مفتوح الآن</span></span>
+          </div>
+          <div data-ar="السبت – الخميس: 7:00 صباحًا حتى منتصف الليل" data-en="Saturday–Thursday: 7:00 AM – midnight">السبت – الخميس: 7:00 صباحًا حتى منتصف الليل</div>
+          <div data-ar="الجمعة: 1:00 ظهرًا حتى منتصف الليل" data-en="Friday: 1:00 PM – midnight">الجمعة: 1:00 ظهرًا حتى منتصف الليل</div>
+        </div>
+      </div>
+      <div class="info-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.2"/></svg>
+        <div>
+          <strong data-ar="الموقع" data-en="Location">الموقع</strong>
+          <div data-ar="سكاكا، الجوف — عنوان وهمي للنموذج (ليست جهة حقيقية)." data-en="Sakaka, Al-Jawf — a fictional demo location (not a real venue).">سكاكا، الجوف — عنوان وهمي للنموذج (ليست جهة حقيقية).</div>
+          <a href="https://www.google.com/maps/search/?api=1&query=Sakaka%2C%20Al%20Jawf%2C%20Saudi%20Arabia" target="_blank" rel="noopener noreferrer" data-ar="فتح خرائط سكاكا" data-en="Open Sakaka on Maps">فتح خرائط سكاكا</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p><strong data-ar="كافيه نموذج — Demo" data-en="Namothaj Cafe — Demo">كافيه نموذج — Demo</strong></p>
+      <p data-ar="القيم الحرارية في هذا النموذج تقديرية للعرض فقط. في المشروع الحقيقي تكون دقة الأسعار والسعرات والحساسية مسؤولية المنشأة." data-en="Calorie values in this demo are estimates for display only. In a real project, the accuracy of prices, calories, and allergens is the venue’s responsibility.">القيم الحرارية في هذا النموذج تقديرية للعرض فقط. في المشروع الحقيقي تكون دقة الأسعار والسعرات والحساسية مسؤولية المنشأة.</p>
+      <p data-ar="صور مجانية الترخيص من Unsplash و Pexels. هذا النموذج لمعرض منتج «منيو رقمي بباركود QR»." data-en="Photos are free-licensed from Unsplash and Pexels. This page is a product demo for a digital QR menu.">صور مجانية الترخيص من Unsplash و Pexels. هذا النموذج لمعرض منتج «منيو رقمي بباركود QR».</p>
+    </footer>
+  </div>
+
+  <button type="button" class="wa-bar" data-open-wa data-ar-aria="طلب أو تواصل عبر واتساب" data-en-aria="Order or contact via WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.8L2 22l4.3-1.1A11 11 0 0 0 12 23a11 11 0 0 0 8.5-19.5zM12 21a9 9 0 0 1-4.6-1.3l-.3-.2-2.6.7.7-2.5-.2-.3A9 9 0 1 1 12 21zm5-6.7c-.3-.1-1.6-.8-1.8-.9s-.4-.1-.6.1-.7.9-.8 1-.3.2-.6 0a7.3 7.3 0 0 1-2.1-1.3 8 8 0 0 1-1.5-1.8c-.2-.3 0-.4.1-.6l.3-.3.2-.3a.5.5 0 0 0 0-.5c0-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.6 11.4 11.4 0 0 0 4.4 3.9 5 5 0 0 0 2.3.7 2.8 2.8 0 0 0 1.8-.6 2.3 2.3 0 0 0 .5-1.6c0-.2 0-.3-.2-.4z"/></svg>
+    <span data-ar="اطلب أو تواصل عبر واتساب" data-en="Order or message on WhatsApp">اطلب أو تواصل عبر واتساب</span>
+  </button>
+
+  <div class="modal-backdrop" id="wa-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="wa-title">
+    <div class="modal">
+      <div class="grab" aria-hidden="true"></div>
+      <h3 id="wa-title" data-ar="نموذج تجريبي" data-en="This is a demo">نموذج تجريبي</h3>
+      <p data-ar="هذا كافيه وهمي للعرض. في المنيو الحقيقي يفتح الزر محادثة واتساب الخاصة بالمحل مباشرة، من غير أن ينزّل الزبون تطبيقًا إضافيًا." data-en="This cafe is fictional and for display only. On a real menu, this button opens the venue’s WhatsApp chat directly — no extra app to install.">هذا كافيه وهمي للعرض. في المنيو الحقيقي يفتح الزر محادثة واتساب الخاصة بالمحل مباشرة، من غير أن ينزّل الزبون تطبيقًا إضافيًا.</p>
+      <div class="modal-actions">
+        <a class="btn-wa" href="https://wa.me/?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%85%D9%86%20%D9%85%D9%86%D9%8A%D9%88%20%D9%83%D8%A7%D9%81%D9%8A%D9%87%20%D9%86%D9%85%D9%88%D8%B0%D8%AC%20(%D9%86%D9%85%D9%88%D8%B0%D8%AC%20%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%8A)" target="_blank" rel="noopener noreferrer" data-ar="تجربة واتساب" data-en="Try WhatsApp">تجربة واتساب</a>
+        <button type="button" class="btn-ghost" data-close-wa data-ar="إغلاق" data-en="Close">إغلاق</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/images-1.js"></script>
+  <script src="js/images-2.js"></script>
+  <script src="js/images-3.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
